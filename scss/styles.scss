@@ -14,3 +14,19 @@
 
 @import "fonts";
 @import "colors";
+
+.galeria {
+    a {
+        text-decoration: none;
+
+        &:link {
+            color: inherit; 
+        }
+    }
+}
+
+.card {
+    background-color: $color-amarillo-dark;     //TODO: remove! 
+
+
+}
